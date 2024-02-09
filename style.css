@@ -1,0 +1,82 @@
+*{
+    margin:0px ;
+    padding: 0px ; 
+}
+
+body{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right bottom, #BDB1F6 , #D194D5 );
+}
+
+form{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 60px 30px ;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border-radius: 35px;
+    box-shadow: 0 0 9px rgba(0,0,0,.5);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-title{
+    text-align: center;
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(to right bottom, #BDB1F6 , #D194D5);
+}
+
+form > div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: stretch;
+}
+
+form >div>label{
+   font-size: 18px;
+   text-align: left;
+   margin-left: 6px;
+   color:lightblue;
+   font-weight: bold;
+}
+
+form > div > input {
+    padding: 25px;
+    border: 2px solid #BDB1F6;
+    border-radius: 5px;
+    margin: 5px;   
+}
+
+.link-esqueceu{
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    color: lightblue;
+    font-weight: bold;
+}
+
+.buttom-logar{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    background: linear-gradient(to right bottom, #BDB1F6 , #D194D5); 
+}
+
+.buttom-logar:hover{
+    box-shadow: 0 0 5px 0 black;
+    cursor: pointer;
+}
